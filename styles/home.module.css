@@ -161,10 +161,11 @@
         font-weight: 550;
     }
 
+    /* Ensure .confirmation is visible on mobile */
     .confirmation {
-        display: none;
+        display: flex; /* Ensure it's shown */
         width: 100%;
-        height: 500px;
+        height: auto; /* Adjust height as needed */
         position: absolute;
         left: 50%;
         top: 50%;
